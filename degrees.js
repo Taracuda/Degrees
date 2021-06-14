@@ -1,10 +1,12 @@
 (function() {
     var httpRequest;
     document.getElementById("button").onclick = function() {
-        makeRequest('tara_degrees.json');
+        alert('clicked');
+        makeRequest('./tara_degrees.json');
     };
 
     function makeRequest(url) {
+        httpRequest = new XMLHttpRequest();
         if (!httpRequest) {
             alert('Exiting...cannot create XMLHTTP instance');
             return false;
