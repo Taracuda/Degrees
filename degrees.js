@@ -1,4 +1,5 @@
-window.onload(function() {
+
+(function() {
     var httpRequest;
     document.getElementById("button").onclick = function() {
 
@@ -28,4 +29,4 @@ window.onload(function() {
             }
         }
     }
-});
+})();
