@@ -1,6 +1,7 @@
-(function() {
+window.onload(function() {
     var httpRequest;
     document.getElementById("button").onclick = function() {
+
         alert('clicked');
         makeRequest('./tara_degrees.json');
     };
@@ -27,4 +28,4 @@
             }
         }
     }
-})();
+});
