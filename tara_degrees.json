@@ -1,20 +1,14 @@
-{
-  "my_college_degrees": [
+[
     {
-      "degree": {
-        "school": "University of North Alabama",
-        "program": "Nursing",
-        "type": "BS",
-        "gradDate": "2014-05-10"
-      }
+      "school": "University of North Alabama",
+      "program": "Nursing",
+      "type": "BS",
+      "yearConferred": "2014"
     },
     {
-      "degree": {
-        "school": "Boston University",
-        "program":"Computer Information Systems - Web Application Development",
-        "type": "MS",
-        "gradDate": "2022-01-25"
-      }
+      "school": "Boston University",
+      "program": "Computer Information Systems - Web Application Development",
+      "type": "MS",
+      "yearConferred": "2022"
     }
-  ]
-}
+]
